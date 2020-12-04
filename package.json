@@ -1,0 +1,24 @@
+{
+  "name": "egg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "deploy-test": "./node_modules/.bin/truffle deploy --network testnet --reset",
+    "deploy": "./node_modules/.bin/truffle deploy --network mainnet --reset"
+  },
+  "dependencies": {
+    "caver-js": "1.5.0",
+    "chai": "4.2.0",
+    "mocha": "8.0.1",
+    "solc": "0.5.6",
+    "solgraph": "0.3.3",
+    "solhint": "3.0.0",
+    "truffle": "5.1.33",
+    "truffle-hdwallet-provider-klaytn": "1.0.13-a"
+  },
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "prettier": "^2.1.2"
+  }
+}
